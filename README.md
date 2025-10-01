@@ -16,7 +16,7 @@ The service exposes endpoints to extract entities such as **Person, City, Countr
 
 * Tokenization, Sentence Splitting, POS Tagging, Lemmatization
 * Named Entity Recognition (NER)
-* Easy REST API interface (`/api/v1/ner`)
+* Easy REST API interface (`/information-extractor/ner`)
 * Built with **Spring Boot** + **Stanford CoreNLP**
   
 ---
