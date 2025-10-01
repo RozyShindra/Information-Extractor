@@ -45,24 +45,10 @@ mvn spring-boot:run
 ```
 
 The service will start at:
-`http://localhost:8080/api/v1/ner`
+`http://localhost:8080/information-extractor/ner`
 
 ---
 <img width="1915" height="970" alt="image" src="https://github.com/user-attachments/assets/caa214ae-2e71-4c5b-9d04-4e581af0db24" />
-
-
-
-## 🧩 Supported Entity Types
-
-Defined in `Type.java`:
-
-* `PERSON`
-* `CITY`
-* `COUNTRY`
-* `STATE_OR_PROVINCE`
-* `EMAIL`
-* `TITLE`
-
 ---
 
 ## 📖 Future Enhancements
