@@ -11,6 +11,8 @@ A **Java + Spring Boot REST API** for **Named Entity Recognition (NER)** and **I
 The service exposes endpoints to extract entities such as **Person, City, Country, State, Email, Title**, and more from raw text.
 
 ---
+<img width="1915" height="970" alt="image" src="https://github.com/user-attachments/assets/caa214ae-2e71-4c5b-9d04-4e581af0db24" />
+
 
 ## 🚀 Features
 
@@ -47,8 +49,6 @@ mvn spring-boot:run
 The service will start at:
 `http://localhost:8080/information-extractor/ner`
 
----
-<img width="1915" height="970" alt="image" src="https://github.com/user-attachments/assets/caa214ae-2e71-4c5b-9d04-4e581af0db24" />
 ---
 
 ## 📖 Future Enhancements
