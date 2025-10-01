@@ -48,7 +48,8 @@ The service will start at:
 `http://localhost:8080/api/v1/ner`
 
 ---
-<img width="1904" height="949" alt="image" src="https://github.com/user-attachments/assets/6737fa09-69b3-4e72-b6df-c0e2c58a74f2" />
+<img width="1915" height="970" alt="image" src="https://github.com/user-attachments/assets/caa214ae-2e71-4c5b-9d04-4e581af0db24" />
+
 
 
 ## 🧩 Supported Entity Types
