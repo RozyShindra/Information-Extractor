@@ -12,6 +12,8 @@ The service exposes endpoints to extract entities such as **Person, City, Countr
 
 ---
 <img width="1915" height="970" alt="image" src="https://github.com/user-attachments/assets/caa214ae-2e71-4c5b-9d04-4e581af0db24" />
+<img width="1907" height="967" alt="image" src="https://github.com/user-attachments/assets/3af9a367-fe55-451e-9a8e-c5d1b158bbec" />
+
 
 
 ## 🚀 Features
