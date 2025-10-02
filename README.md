@@ -11,12 +11,16 @@ A **Java + Spring Boot REST API** for **Named Entity Recognition (NER)** and **I
 The service exposes endpoints to extract entities such as **Person, City, Country, State, Email, Title**, and more from raw text.
 
 ---
+<img width="1915" height="970" alt="image" src="https://github.com/user-attachments/assets/caa214ae-2e71-4c5b-9d04-4e581af0db24" />
+<img width="1907" height="967" alt="image" src="https://github.com/user-attachments/assets/3af9a367-fe55-451e-9a8e-c5d1b158bbec" />
+
+
 
 ## 🚀 Features
 
 * Tokenization, Sentence Splitting, POS Tagging, Lemmatization
 * Named Entity Recognition (NER)
-* Easy REST API interface (`/api/v1/ner`)
+* Easy REST API interface (`/information-extractor/ner`)
 * Built with **Spring Boot** + **Stanford CoreNLP**
   
 ---
@@ -45,22 +49,7 @@ mvn spring-boot:run
 ```
 
 The service will start at:
-`http://localhost:8080/api/v1/ner`
-
----
-<img width="1904" height="949" alt="image" src="https://github.com/user-attachments/assets/6737fa09-69b3-4e72-b6df-c0e2c58a74f2" />
-
-
-## 🧩 Supported Entity Types
-
-Defined in `Type.java`:
-
-* `PERSON`
-* `CITY`
-* `COUNTRY`
-* `STATE_OR_PROVINCE`
-* `EMAIL`
-* `TITLE`
+`http://localhost:8080/information-extractor/ner`
 
 ---
 
