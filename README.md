@@ -7,20 +7,22 @@
 [![Maven](https://img.shields.io/badge/Maven-3.6+-blue.svg)](https://maven.apache.org/)
 ![Stanford CoreNLP](https://img.shields.io/badge/Stanford_CoreNLP-4.5.10-red.svg)
 
-A **Java + Spring Boot REST API** for **Named Entity Recognition (NER)** and **Information Extraction** using [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/).
+A **Java + Spring Boot REST API** for **Information Extraction** with integration of **Knowledge Graph**, **Named Entity Recognition (NER)** and **Sentiment Analysis** using [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/).
 The service exposes endpoints to extract entities such as **Person, City, Country, State, Email, Title**, and more from raw text.
 
 ---
 <img width="1915" height="970" alt="image" src="https://github.com/user-attachments/assets/caa214ae-2e71-4c5b-9d04-4e581af0db24" />
 <img width="1907" height="967" alt="image" src="https://github.com/user-attachments/assets/3af9a367-fe55-451e-9a8e-c5d1b158bbec" />
+<img width="1916" height="970" alt="image" src="https://github.com/user-attachments/assets/ca671e69-898a-4390-8a35-714746069bcb" />
+
 
 
 
 ## 🚀 Features
 
 * Tokenization, Sentence Splitting, POS Tagging, Lemmatization
-* Named Entity Recognition (NER)
-* Easy REST API interface (`/information-extractor/ner`)
+* Information Extraction by integrating Knowledge Graph, Named Entity Recognition (NER), Sentiment Analysis
+* Easy REST API interface (`/information-extractor/graph`, `/information-extractor/sentiment`,`/information-extractor/ner`)
 * Built with **Spring Boot** + **Stanford CoreNLP**
   
 ---
@@ -49,13 +51,11 @@ mvn spring-boot:run
 ```
 
 The service will start at:
-`http://localhost:8080/information-extractor/ner`
+`http://localhost:8080/information-extractor/graph`
 
 ---
 
 ## 📖 Future Enhancements
 
-* Add **Sentiment Analysis API**
-* Extend to support **custom entity extraction**
 * Dockerize for deployment
 * Integrate with frontend client
